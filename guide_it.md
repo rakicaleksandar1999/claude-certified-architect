@@ -85,7 +85,7 @@ Questo scenario è stato segnalato dai candidati all’esame ma non è ancora co
 
 ---
 
-## Official Documentation
+## Official Documentazione
 
 | Risorsa | URL |
 | --- | --- |
@@ -123,7 +123,7 @@ Questa parte copre tutta la teoria necessaria per superare con successo l’esam
 
 # Capitolo 1: Claude API — Fondamenti dell’Interazione con il Modello
 
-> Documentation: [Messages API](https://platform.claude.com/docs/en/api/messages) | [Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
+> Documentazione: [Messages API](https://platform.claude.com/docs/en/api/messages) | [Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
 
 ## 1.1 Struttura delle Richieste API
 
@@ -564,9 +564,9 @@ Le Resources sono dati che un agente può richiedere per ottenere contesto senza
 
 **Vantaggio delle Resources:** l’agente non deve effettuare chiamate esplorative a strumenti per capire quali dati esistono. Una resource fornisce una “mappa” immediata del sistema.
 
-# Chapter 5: Claude Code — Configurazione e Workflow
+# Capitolo 5: Claude Code — Configurazione e Workflow
 
-> Documentation: [Claude Code](https://code.claude.com/docs/en/overview) | [Memory / CLAUDE.md](https://code.claude.com/docs/en/memory) | [Skills](https://code.claude.com/docs/en/skills) | [MCP](https://code.claude.com/docs/en/mcp) | [Hooks](https://code.claude.com/docs/en/hooks) | [Sub-agents](https://code.claude.com/docs/en/sub-agents) | [GitHub Actions](https://code.claude.com/docs/en/github-actions) | [Headless](https://code.claude.com/docs/en/headless)
+> Documentazione: [Claude Code](https://code.claude.com/docs/en/overview) | [Memory / CLAUDE.md](https://code.claude.com/docs/en/memory) | [Skills](https://code.claude.com/docs/en/skills) | [MCP](https://code.claude.com/docs/en/mcp) | [Hooks](https://code.claude.com/docs/en/hooks) | [Sub-agents](https://code.claude.com/docs/en/sub-agents) | [GitHub Actions](https://code.claude.com/docs/en/github-actions) | [Headless](https://code.claude.com/docs/en/headless)
 
 ## 5.1 Gerarchia di CLAUDE.md
 
@@ -833,9 +833,9 @@ Redux           Context API
 
 ---
 
-# Chapter 6: Prompt Engineering — Advanced Techniques
+# Capitolo 6: Prompt Engineering — Tecniche Avanzate
 
-> Documentation: [Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook)
+> Documentazione: [Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview) | [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook)
 
 ## 6.1 Few-shot Prompting
 

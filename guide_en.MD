@@ -2666,12 +2666,12 @@ When Edit fails due to a non-unique text match:
 
 **What do you recommend?**
 
-- A) Create a personal version under `~/.claude/skills/` with a different name, e.g., `/my-commit`.
+- A) Create a personal version under `~/.claude/skills/` with a different name, e.g., `/my-commit`. **[CORRECT]**
 - B) Add conditional logic based on username in the project skill frontmatter.
-- C) Create a personal version at `~/.claude/skills/commit/SKILL.md` with the same name. **[CORRECT]**
+- C) Create a personal version at `~/.claude/skills/commit/SKILL.md` with the same name.
 - D) Set `override: true` in the personal skill frontmatter to prioritize it over the project version.
 
-**Why C:** Personal skills take precedence over project skills with the same name. A personal skill at `~/.claude/skills/commit/SKILL.md` will override the team’s project skill, allowing the developer to customize their workflow while maintaining the familiar `/commit` command name for their personal use. This approach is better than option A because it preserves the original command name, improving the developer’s workflow without affecting teammates.
+**Why C:** Since project skills take precedence over personal skills with the same name, the developer must use a different skill name (like `/my-commit`) in their personal `~/.claude/skills/` directory to ensure their custom version is accessible alongside the team's project skill.
 
 ---
 

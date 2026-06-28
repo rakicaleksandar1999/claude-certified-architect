@@ -2671,7 +2671,7 @@ When Edit fails due to a non-unique text match:
 - C) Create a personal version at `~/.claude/skills/commit/SKILL.md` with the same name.
 - D) Set `override: true` in the personal skill frontmatter to prioritize it over the project version.
 
-**Why C:** Since project skills take precedence over personal skills with the same name, the developer must use a different skill name (like `/my-commit`) in their personal `~/.claude/skills/` directory to ensure their custom version is accessible alongside the team's project skill.
+**Why C:** Since project skills take precedence over personal skills with the same name, the developer must use a different skill name (like `/my-commit`) in their personal `~/.claude/skills/` directory to ensure their custom version is accessible alongside the team's project skill. Creating a personal `/commit` skill would be shadowed by the project's version and never invoked.
 
 ---
 
